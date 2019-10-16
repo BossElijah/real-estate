@@ -22,7 +22,7 @@
             {
               "title": "Boliger til salg",
               "img": {
-                "src": "../../public/img/house-1.jpg",
+                "src": "house-1.png",
                 "alt": "Boliger til salg"
               },
               "linkSrc": "/salg"
@@ -30,7 +30,7 @@
             {
               "title": "Boliger til leje",
               "img": {
-                "src": "../../public/img/leje.jpeg",
+                "src": "leje.jpeg",
                 "alt": "Boliger til leje"
                 },
               "linkSrc": "/leje"
@@ -38,7 +38,7 @@
             {
               "title": "Find din ejendomsmægler",
               "img": {
-                "src": "../../public/img/agent.jpg",
+                "src": "agent.jpg",
                 "alt": "Find din ejendomsmægler"
               },
               "linkSrc": "/find"
@@ -46,7 +46,7 @@
             {
               "title": "Bestil et gratis salgstjek",
               "img": {
-                "src": "../../public/img/f-agent.jpeg",
+                "src": "f-agent.jpeg",
                 "alt": "Bestil et gratis salgstjek"
               },
               "linkSrc": "/salgstjek"
