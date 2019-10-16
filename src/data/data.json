@@ -4,53 +4,58 @@
       "logoLink": "/"
     }
   },
-  "home": {  
-    "decks": [
-      {
-        "id": 1,
-        "type": "hero",
-        "title": "Real Estate"
-      },
-      {
-        "id": 2,
-        "type": "cardList",
-        "cards": [
-          {
-            "title": "Boliger til salg",
-            "img": {
-              "src": "../../public/img/house-1.jpg",
-              "alt": "Boliger til salg"
-            },
-            "linkSrc": "/salg"
-          },
-          {
-            "title": "Boliger til leje",
-            "img": {
-              "src": "../../public/img/leje.jpeg",
-              "alt": "Boliger til leje"
-              },
-            "linkSrc": "/leje"
-          },
-          {
-            "title": "Find din ejendomsmægler",
-            "img": {
-              "src": "../../public/img/agent.jpg",
-              "alt": "Find din ejendomsmægler"
-            },
-            "linkSrc": "/find"
-          },
-          {
-            "title": "Bestil et gratis salgstjek",
-            "img": {
-              "src": "../../public/img/f-agent.jpeg",
-              "alt": "Bestil et gratis salgstjek"
-            },
-            "linkSrc": "/salgstjek"
+  "pages": [
+    {
+      "url": "/",
+      "decks": [
+        {
+          "type": "hero",
+          "title": "Real Estate",
+          "img": {
+            "src": "Big_house.jpeg",
+            "alt": "test"
           }
-        ]
-      }
-    ]
-  },
+        },
+        {
+          "type": "cardList",
+          "cards": [
+            {
+              "title": "Boliger til salg",
+              "img": {
+                "src": "../../public/img/house-1.jpg",
+                "alt": "Boliger til salg"
+              },
+              "linkSrc": "/salg"
+            },
+            {
+              "title": "Boliger til leje",
+              "img": {
+                "src": "../../public/img/leje.jpeg",
+                "alt": "Boliger til leje"
+                },
+              "linkSrc": "/leje"
+            },
+            {
+              "title": "Find din ejendomsmægler",
+              "img": {
+                "src": "../../public/img/agent.jpg",
+                "alt": "Find din ejendomsmægler"
+              },
+              "linkSrc": "/find"
+            },
+            {
+              "title": "Bestil et gratis salgstjek",
+              "img": {
+                "src": "../../public/img/f-agent.jpeg",
+                "alt": "Bestil et gratis salgstjek"
+              },
+              "linkSrc": "/salgstjek"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "footer": {
     "type": "footer",
     "title": "Tilmeld dig vores nyhedsbrev",
