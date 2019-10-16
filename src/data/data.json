@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "logo": {
+      "logoLink": "/",
+      "logoText": "HBT"
+    },
+    "menu": [
+      {
+        "linkText": "Home",
+        "linkUrl": "/"
+      },
+      {
+        "linkText": "About",
+        "linkUrl": "/about"
+      },
+      {
+        "linkText": "Contact",
+        "linkUrl": "/contact"
+      }
+    ]
+  },
+  "homepage": {  
+    "urlAlias": "/",
+    "decks": {
+      "deck1": {
+        "id": 1,
+        "type": "hero",
+        "title": "Enjoy ",
+        "title2": "Your Stay",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti sunt harum, voluptatibus soluta atque!",
+        "cta": {
+          "ctaText": "About Our Hotel",
+          "ctaUrl": "/about"
+        }
+      },
+      "deck2": {
+        "id": 2,
+        "type": "textMedia",
+        "title": "The History ",
+        "title2": "Of Our Hotel",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sint, id minima nihil dicta dignissimos voluptates perspiciatis suscipit harum quos fuga veniam maxime. Porro fugiat consectetur maiores voluptatem? Minima saepe porro provident minus aliquam magnam praesentium nam ipsa odit suscipit?",
+        "cta": {
+          "ctaText": "Read More",
+          "ctaUrl": "/about"
+        }
+      },
+      "deck3": {
+        "id": 3,
+        "type": "textMedia",
+        "column1": {
+          "icon": "fas fa-hotel fa-3x",
+          "title": "Great Location",
+          "text": "Lorem ipsum dolor sit amet consecteteur adipisicing elit. Ut, omnis?"
+        },
+        "column2": {
+          "icon": "fas fa-utensils fa-3x",
+          "title": "Free Meals",
+          "text": "Lorem ipsum dolor sit amet consecteteur adipisicing elit. Ut, omnis?"
+        },
+        "column3": {
+          "icon": "fas fa-dumbbell fa-3x",
+          "title": "Fitness Room",
+          "text": "Lorem ipsum dolor sit amet consecteteur adipisicing elit. Ut, omnis?"
+        }
+      }
+    }
+  },
+    "about": {  
+    "urlAlias": "/about",
+    "decks": {
+      "deck1": {
+        "id": 1,
+        "type": "hero",
+        "title": "About ",
+        "title2": "Hotel BT",
+        "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt, a natus omnis deleniti quis provident dolore debitis reprehenderit nisi ad maxime quos vero magni esse unde autem! Totam, quam.",
+        "text2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum repellendus nesciunt autem aperiam ut facere voluptate dignissimos omnis modi."
+      },
+      "deck2": {
+        "id": 2,
+        "type": "quote",
+        "title": "What Our Guests Say",
+        "guest1": {
+          "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quis, numquam iure rerum eum natus fugiat non asperiores doloribus est doloremque quaerat ipsa. Fugit, recusandae odit? Magnam facilis deserunt quidem consequatur fugit quibusdam magni. Sunt ducimus sequi iusto nemo aspernatur!"
+        },
+        "guest2": {
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quis, numquam iure rerum eum natus fugiat non asperiores doloribus est doloremque quaerat ipsa. Fugit, recusandae odit? Magnam facilis deserunt quidem consequatur fugit quibusdam magni. Sunt ducimus sequi iusto nemo aspernatur!"
+        }
+      }
+    }
+  },
+  "contact": {  
+    "urlAlias": "/",
+    "decks": {
+      "deck1": {
+        "id": 1,
+        "type": "contactForm",
+        "title": "Contact ",
+        "title2": "Us",
+        "text": "Please fill out the form below to contact us",
+        "label1": "Name",
+        "label2": "Email",
+        "label3": "Message",
+        "ctaText": "Submit"
+      },
+      "deck2": {
+        "id": 3,
+        "type": "textMedia",
+        "column1": {
+          "icon": "fas fa-hotel fa-3x",
+          "title": "Location",
+          "text": "50 Main st, Boston MA"
+        },
+        "column2": {
+          "icon": "fas fa-phone fa-3x",
+          "title": "Phone Number",
+          "text": "(617) 555-5555"
+        },
+        "column3": {
+          "icon": "fas fa-envelope fa-3x",
+          "title": "Email Address",
+          "text": "info@hotelbt.com"
+        }
+      }
+    }
+  },
+  "footer": {
+    "id": 4,
+    "type": "footer",
+    "text": "Hotel BT &copy; 2019, All Rights Reserved"
+  }
+}
