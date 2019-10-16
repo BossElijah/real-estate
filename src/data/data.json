@@ -1,72 +1,44 @@
 {
   "navbar": {
     "logo": {
-      "logoLink": "/",
-      "logoText": "HBT"
-    },
-    "menu": [
-      {
-        "linkText": "Home",
-        "linkUrl": "/"
-      },
-      {
-        "linkText": "About",
-        "linkUrl": "/about"
-      },
-      {
-        "linkText": "Contact",
-        "linkUrl": "/contact"
-      }
-    ]
+      "logoLink": "/"
+    }
   },
   "home": {  
     "decks": [
        {
         "id": 1,
         "type": "hero",
-        "title": "Enjoy ",
-        "title2": "Your Stay",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti sunt harum, voluptatibus soluta atque!",
-        "cta": {
-          "ctaText": "About Our Hotel",
-          "ctaUrl": "/about"
-        }
+        "title": "Real Estate"
       },
       {
         "id": 2,
-        "type": "textMedia",
-        "title": "The History ",
-        "title2": "Of Our Hotel",
-        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sint, id minima nihil dicta dignissimos voluptates perspiciatis suscipit harum quos fuga veniam maxime. Porro fugiat consectetur maiores voluptatem? Minima saepe porro provident minus aliquam magnam praesentium nam ipsa odit suscipit?",
-        "cta": {
-          "ctaText": "Read More",
-          "ctaUrl": "/about"
-        }
-      },
-      {
-        "id": 3,
-        "type": "textMedia",
-        "column1": {
-          "icon": "fas fa-hotel fa-3x",
-          "title": "Great Location",
-          "text": "Lorem ipsum dolor sit amet consecteteur adipisicing elit. Ut, omnis?"
-        },
-        "column2": {
-          "icon": "fas fa-utensils fa-3x",
-          "title": "Free Meals",
-          "text": "Lorem ipsum dolor sit amet consecteteur adipisicing elit. Ut, omnis?"
-        },
-        "column3": {
-          "icon": "fas fa-dumbbell fa-3x",
-          "title": "Fitness Room",
-          "text": "Lorem ipsum dolor sit amet consecteteur adipisicing elit. Ut, omnis?"
-        }
+        "type": "cardList",
+        "cards": [
+          {
+            "title": "Boliger til salg"
+          },
+          {
+            "title": "Boliger til leje"
+          },
+          {
+            "title": "Find din ejendomsmægler"
+          },
+          {
+            "title": "Bestil et gratis salgstjek"
+          }
+        ]
       }
     ]
   },
   "footer": {
-    "id": 4,
     "type": "footer",
-    "text": "Hotel BT &copy; 2019, All Rights Reserved"
+    "title": "Tilmeld dig vores nyhedsbrev",
+    "placeholder": "Din email-adresse her...",
+    "cta": {
+      "ctaText": "Tilmeld",
+      "ctaUrl": ""
+    },
+    "text": "Real Estate &copy 2019, All Rights Reserved"
   }
 }
