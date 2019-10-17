@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const emailInputRef = useRef(null);
+
+  const onClick = () => {
+    emailInputRef.current.value = '';
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="footer">
       <div className="newsletter">
@@ -12,8 +19,9 @@ const Footer = () => {
             name="email"
             id="email"
             placeholder="Din email-adresse her..."
+            ref={emailInputRef}
           />
-          <Link to="/nyhedsbrev" target="_blank" className="btn footer__btn">
+          <Link to="/nyhedsbrev" target="_blank" className="btn footer__btn" onClick={onClick}>
             <b>Tilmeld</b>
           </Link>
         </form>

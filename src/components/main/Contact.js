@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const Contact = ({ img: {src, alt}, title, name, subtitle, contacts }) => {
   return (
@@ -12,11 +12,11 @@ const Contact = ({ img: {src, alt}, title, name, subtitle, contacts }) => {
         <h3>
           <b>{subtitle}</b>
         </h3>
-        {contacts.map(contact => (
-          <>
+        {contacts.map((contact, index) => (
+          <Fragment key={index}>
             <i className={contact.icon}></i>
             <p>{contact.text}</p>
-          </>
+          </Fragment>
         ))}
       </div>
     </>
