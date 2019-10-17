@@ -99,11 +99,7 @@
         {
           "type": "textMedia",
           "title": "Tillykke!",
-          "text": "Du har nu tilmeldt dig vores nyhedsbrev!",
-          "cta": {
-            "url": "/",
-            "ctaText": "Tilbage til forsiden"
-          }
+          "text": "Du har nu tilmeldt dig vores nyhedsbrev!"
         }
       ]
     },
