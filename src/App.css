@@ -113,7 +113,7 @@ input:focus:-moz-placeholder { color:transparent; }
   color: white;
   text-align: center;
   margin: auto;
-  margin-top: 300px;
+  margin-top: 275px;
 }
 
 .newsletter__text {
@@ -121,4 +121,18 @@ input:focus:-moz-placeholder { color:transparent; }
   text-align: center;
   color: white;
   font-size: 70px;
+}
+
+.btn-l {
+  background: white;
+  text-decoration: none;
+  font-family: IBM Plex Sans;
+  color: #3d4669;
+  padding: 15px 20px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 2px;
+  max-width: 500px;
+  align-self: center;
+  margin-top: 40px;
 }

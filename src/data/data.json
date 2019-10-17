@@ -62,7 +62,7 @@
           }
         },
         {
-          "type": "textMedia",
+          "type": "paragraph",
           "title": "Find din egen stil",
           "slogan": "-Vi kan hjælpe",
           "text": "And 's new app seemingly once I didn't expect it applies. Believe speaking we want to us 64 of the gamut. Lagged that looks, sounds, smells, feels, possibly even Windows and ultimately. To noise connoted a good does it to be traveling faster. Even and paper having two apps treat and expanding. Theory service that Twitter for were originally developed and that also play nicely. The all our brain takes in Slack, while sharing files via email. We Windows and typography the level it to be your progress in theory."
@@ -99,7 +99,11 @@
         {
           "type": "textMedia",
           "title": "Tillykke!",
-          "text": "Du har nu tilmeldt dig vores nyhedsbrev!"
+          "text": "Du har nu tilmeldt dig vores nyhedsbrev!",
+          "cta": {
+            "url": "/",
+            "ctaText": "Tilbage til forsiden"
+          }
         }
       ]
     },

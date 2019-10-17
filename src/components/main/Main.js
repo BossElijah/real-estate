@@ -4,13 +4,15 @@ import Hero from './Hero';
 import CardList from './CardList';
 import TextMedia from './TextMedia';
 import Contact from './Contact';
+import Paragraph from './Paragraph';
 
 const Deck = ({ type, ...props }) => {
   const deckMap = {
     hero: Hero,
     cardList: CardList,
     textMedia: TextMedia,
-    contact: Contact
+    contact: Contact,
+    paragraph: Paragraph
   };
 
   return React.createElement(
