@@ -26,11 +26,12 @@ body {
 .card__image {
   margin-top: 70px;
   width: 700px;
-  height: auto;
+  height: 260px;
+  object-fit: cover;
 }
 
 .card__title {
-  margin-top: 110px;
+  margin-top: 120px;
   position: absolute;
   text-decoration: none;
   background: white;
@@ -41,5 +42,38 @@ body {
   width: 400px;
   height: 50px;
   padding-left: 20px;
-  
+}
+
+.footer {
+  display: flex;
+  background: #3d4669;
+  width: 100%;
+  height: 600px;
+}
+
+.footer__title {
+  margin: auto;
+}
+
+.title__bottom {
+  margin: auto;
+  text-align: center;
+}
+
+#email {
+  margin: auto;
+}
+
+.btn {
+  background: white;
+  text-decoration: none;
+  font-family: IBM Plex Sans;
+  color: #3d4669;
+  padding: 15px 20px;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.newsletter {
+  margin: auto;
 }
