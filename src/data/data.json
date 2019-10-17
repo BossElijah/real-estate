@@ -107,6 +107,10 @@
           "text": "Du har nu tilmeldt dig vores nyhedsbrev!"
         }
       ]
+    },
+    {
+      "url": "/find",
+      "decks": []
     }
   ]
 }
