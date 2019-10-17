@@ -100,3 +100,25 @@ input[type="text"] {
 
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; }
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #3d4669;
+}
+
+.newsletter__title {
+  font-size: 176px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.newsletter__text {
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
