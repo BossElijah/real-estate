@@ -1,0 +1,16 @@
+.hero-container {
+  display: flex;
+  height: 764px;
+}
+
+.hero-title {
+  margin: auto;
+  font-family: IBM Plex Sans ;
+  font-size: 179px;
+  color: white;
+  text-shadow: 3px 3px 20px #000000;
+}
+
+body {
+  margin: 0;
+}
