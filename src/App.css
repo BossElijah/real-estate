@@ -45,8 +45,6 @@ body {
   padding-left: 20px;
 }
 
-
-/* Footer */
 .footer {
   display: flex;
   flex-direction: column;
@@ -135,4 +133,9 @@ input:focus:-moz-placeholder { color:transparent; }
   max-width: 500px;
   align-self: center;
   margin-top: 40px;
+}
+
+.btn-l:hover, .btn:hover {
+  color: #3d4669;
+  background: #f4f4f4;
 }
