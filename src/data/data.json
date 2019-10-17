@@ -22,7 +22,7 @@
             {
               "title": "Boliger til salg",
               "img": {
-                "src": "house-1.jpeg",
+                "src": "house-2.jpg",
                 "alt": "Boliger til salg"
               },
               "linkSrc": "/salg"
@@ -30,7 +30,7 @@
             {
               "title": "Boliger til leje",
               "img": {
-                "src": "leje.jpeg",
+                "src": "leje1.jpg",
                 "alt": "Boliger til leje"
                 },
               "linkSrc": "/leje"
@@ -38,7 +38,7 @@
             {
               "title": "Find din ejendomsmægler",
               "img": {
-                "src": "agent.jpg",
+                "src": "agent1.jpg",
                 "alt": "Find din ejendomsmægler"
               },
               "linkSrc": "/find"
@@ -46,12 +46,31 @@
             {
               "title": "Bestil et gratis salgstjek",
               "img": {
-                "src": "f-agent.jpeg",
+                "src": "f-agent1.jpg",
                 "alt": "Bestil et gratis salgstjek"
               },
               "linkSrc": "/salgstjek"
             }
           ]
+        }
+      ]
+    },
+    {
+      "url": "/salg",
+      "decks": [
+        {
+          "type": "hero",
+          "title": "Boliger til salg",
+          "img": {
+            "src": "house-1.jpeg",
+            "alt": "House"
+          }
+        },
+        {
+          "type": "textMedia",
+          "title": "Find din egen stil",
+          "slogan": "-Vi kan hjælpe",
+          "text": "And 's new app seemingly once I didn't expect it applies. Believe speaking we want to us 64 of the gamut. Lagged that looks, sounds, smells, feels, possibly even Windows and ultimately. To noise connoted a good does it to be traveling faster. Even and paper having two apps treat and expanding. Theory service that Twitter for were originally developed and that also play nicely. The all our brain takes in Slack, while sharing files via email. We Windows and typography the level it to be your progress in theory."
         }
       ]
     }
