@@ -139,3 +139,29 @@ input:focus:-moz-placeholder { color:transparent; }
   color: #3d4669;
   background: #f4f4f4;
 }
+
+.img__wrapper {
+  max-width: 700;
+  max-height: 260;
+}
+
+.card__image:hover {
+  transform: scale(1.1);
+}
+.container {
+  display: flex;
+  background: #3d4669;
+}
+
+.bolig__title {
+  margin: auto;
+  color: white;
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.bolig__text {
+  margin: auto;
+  color: white;
+  max-width: 500px;
+}
