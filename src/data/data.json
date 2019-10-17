@@ -1,9 +1,4 @@
 {
-  "navbar": {
-    "logo": {
-      "logoLink": "/"
-    }
-  },
   "pages": [
     {
       "url": "/",
