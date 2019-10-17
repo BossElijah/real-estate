@@ -2,13 +2,11 @@ import React from 'react';
 import data from '../../data/data.json';
 import Hero from './Hero';
 import CardList from './CardList';
-// import Footer from './Footer.js';
 
 const Deck = ({ type, ...props }) => {
   const deckMap = {
     hero: Hero,
-    cardList: CardList,
-    // footer: Footer
+    cardList: CardList
   };
 
   return React.createElement(
