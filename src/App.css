@@ -1,9 +1,9 @@
-.hero-container {
+.hero {
   display: flex;
   height: 764px;
 }
 
-.hero-title {
+.hero__title {
   margin: auto;
   font-family: IBM Plex Sans ;
   font-size: 179px;
@@ -13,4 +13,20 @@
 
 body {
   margin: 0;
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card__image {
+  width: 600px;
+  height: auto;
+}
+
+.card__title {
+  text-decoration: none;
 }
