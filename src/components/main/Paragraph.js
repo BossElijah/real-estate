@@ -9,6 +9,7 @@ const Paragraph = ({ text1, text2, slogan, title }) => {
       </div>
       <div className="bolig__text">
         <p>{text1}</p>
+        <br/>
         <p>{text2}</p>
       </div>
     </div>
