@@ -62,7 +62,7 @@
           "type": "hero",
           "title": "Boliger til salg",
           "img": {
-            "src": "house-1.jpeg",
+            "src": "house-2.jpg",
             "alt": "House"
           }
         },
@@ -71,6 +71,39 @@
           "title": "Find din egen stil",
           "slogan": "-Vi kan hjælpe",
           "text": "And 's new app seemingly once I didn't expect it applies. Believe speaking we want to us 64 of the gamut. Lagged that looks, sounds, smells, feels, possibly even Windows and ultimately. To noise connoted a good does it to be traveling faster. Even and paper having two apps treat and expanding. Theory service that Twitter for were originally developed and that also play nicely. The all our brain takes in Slack, while sharing files via email. We Windows and typography the level it to be your progress in theory."
+        },
+        {
+          "type": "contact",
+          "img": {
+            "src": "agent.jpeg",
+            "alt": "Agent"
+          },
+          "title": "Kontakt",
+          "name": "Thomas Andreasen",
+          "subtitle": "Kontakt Thomas",
+          "contacts": [
+            {
+              "icon": "fas fa-phone",
+              "text": "4498 3500"
+            },
+            {
+              "icon": "fas fa-mobile-alt",
+              "text": "2921 3520"
+            },
+            {
+              "icon": "fas fa-envelope",
+              "text": "thomas@realestate.dk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "/nyhedsbrev",
+      "decks": [
+        {
+          "type": "textMedia",
+          "title": "Du har nu tilmeldt dig vores nyhedsbrev!"
         }
       ]
     }

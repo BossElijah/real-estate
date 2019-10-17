@@ -14,11 +14,3 @@ function App() {
 }
 
 export default App;
-
-
-  // {cardList.cards.map(card => (
-  //   <h3>{card.title}</h3>
-  //   <img src={card.img.src} alt={card.img.alt}/>
-  // ))}
-
-  // #3d4669
