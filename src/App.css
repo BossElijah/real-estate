@@ -63,8 +63,8 @@ body {
 }
 
 #email {
-  height: 30px;
-  width: 685px;
+  height: 40px;
+  width: 675px;
   display: block;
   margin-bottom: 50px;
 }
@@ -91,3 +91,12 @@ body {
 .newsletter {
   margin: auto;
 }
+
+input[type="text"] {
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
