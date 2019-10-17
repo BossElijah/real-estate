@@ -148,6 +148,7 @@ input:focus:-moz-placeholder { color:transparent; }
 .card__image:hover {
   transform: scale(1.1);
 }
+
 .container {
   display: flex;
   background: #3d4669;
