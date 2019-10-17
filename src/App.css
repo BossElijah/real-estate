@@ -20,13 +20,26 @@ body {
   margin: auto;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .card__image {
+  margin-top: 70px;
   width: 700px;
   height: auto;
 }
 
 .card__title {
+  margin-top: 110px;
+  position: absolute;
   text-decoration: none;
+  background: white;
+  opacity: 0.8;
+  font-family: IBM Plex Sans;
+  font-size: 32px;
+  color: #3d4669;
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  
 }
