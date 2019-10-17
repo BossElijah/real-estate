@@ -143,9 +143,10 @@ input:focus:-moz-placeholder { color:transparent; }
 .img__wrapper {
   max-width: 700;
   max-height: 260;
+
 }
 
-.card__image:hover {
+.card:hover {
   transform: scale(1.1);
 }
 .container {

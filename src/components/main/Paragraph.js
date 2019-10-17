@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Paragraph = ({ text, slogan, title }) => {
+const Paragraph = ({ text1, text2, slogan, title }) => {
   return (
     <div className="container" >
     <div className="bolig__title">
@@ -8,7 +8,8 @@ const Paragraph = ({ text, slogan, title }) => {
         <h2>{slogan}</h2>
       </div>
       <div className="bolig__text">
-        <p>{text}</p>
+        <p>{text1}</p>
+        <p>{text2}</p>
       </div>
     </div>
   );
