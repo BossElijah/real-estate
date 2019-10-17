@@ -103,7 +103,8 @@
       "decks": [
         {
           "type": "textMedia",
-          "title": "Du har nu tilmeldt dig vores nyhedsbrev!"
+          "title": "Tillykke!",
+          "text": "Du har nu tilmeldt dig vores nyhedsbrev!"
         }
       ]
     }
