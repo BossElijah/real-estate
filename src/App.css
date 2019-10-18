@@ -61,6 +61,7 @@ body {
   margin: auto;
   width: 50vw;
   margin-left: 290px;
+  margin-top: 165px;
 }
 
 .contact__title {
@@ -83,13 +84,18 @@ body {
 }
 
 .contact__icon {
-  margin: auto;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .icon__text {
   margin: auto;
   margin-left: 0;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: -10px;
 }
 
 /* Footer */

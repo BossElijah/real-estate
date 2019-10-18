@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 const Contact = ({ img: {src, alt}, title, name, subtitle, contacts }) => {
   return (
