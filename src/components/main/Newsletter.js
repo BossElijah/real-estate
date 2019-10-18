@@ -11,7 +11,7 @@ const TextMedia = ({ title, text }) => {
           <p className="newsletter__text">{text}</p>
         </div>
         {/* eslint-disable-next-line */}
-        <a href="javascript:window.open('','_self').close();" className="btn-l">
+        <a href="javascript:window.open('','_self').close();" className="newsletter__btn">
           <b>Tilbage</b>
         </a>
       </div>

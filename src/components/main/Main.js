@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../../data/data.json';
 import Hero from './Hero';
 import ImageLink from './ImageLink';
-import TextMedia from './TextMedia';
+import Newsletter from './Newsletter';
 import Contact from './Contact';
 import Paragraph from './Paragraph';
 
@@ -10,7 +10,7 @@ const Deck = ({ type, ...props }) => {
   const deckMap = {
     hero: Hero,
     imageLink: ImageLink,
-    textMedia: TextMedia,
+    newsletter: Newsletter,
     contact: Contact,
     paragraph: Paragraph
   };

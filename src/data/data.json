@@ -97,7 +97,7 @@
       "url": "/nyhedsbrev",
       "decks": [
         {
-          "type": "textMedia",
+          "type": "newsletter",
           "title": "Tillykke!",
           "text": "Du har nu tilmeldt dig vores nyhedsbrev!"
         }
@@ -128,7 +128,7 @@
             "alt": "Agent"
           },
           "title": "Kontakt",
-          "name": "Anders Kovsted",
+          "name": "Anders Jeppesen",
           "contacts": [
             {
               "icon": "fas fa-phone",
