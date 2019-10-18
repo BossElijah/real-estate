@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../data/data.json';
 import Hero from './Hero';
-import CardList from './CardList';
+import ImageLink from './ImageLink';
 import TextMedia from './TextMedia';
 import Contact from './Contact';
 import Paragraph from './Paragraph';
@@ -9,7 +9,7 @@ import Paragraph from './Paragraph';
 const Deck = ({ type, ...props }) => {
   const deckMap = {
     hero: Hero,
-    cardList: CardList,
+    imageLink: ImageLink,
     textMedia: TextMedia,
     contact: Contact,
     paragraph: Paragraph

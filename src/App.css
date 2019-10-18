@@ -199,10 +199,17 @@ input:focus:-moz-placeholder { color:transparent; }
 
 .contact__image {
   margin: auto;
+  width: 600px;
+  height: auto;
+}
+
+.contact__image-wrapper {
+  width: 50vw;
 }
 
 .contact__info {
   margin: auto;
+  width: 50vw;
 }
 
 .contact__title {

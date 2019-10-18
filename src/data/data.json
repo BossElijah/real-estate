@@ -12,7 +12,7 @@
           }
         },
         {
-          "type": "cardList",
+          "type": "imageLink",
           "cards": [
             {
               "title": "Boliger til salg",
@@ -63,7 +63,7 @@
         },
         {
           "type": "paragraph",
-          "title": "Find din egen stil",
+          "title": "Vil du købe et hus?",
           "slogan": "-Vi kan hjælpe",
           "text1": "And 's new app seemingly once I didn't expect it applies. Believe speaking we want to us 64 of the gamut. Lagged that looks, sounds, smells, feels, possibly even Windows and ultimately. To noise connoted a good does it to be traveling faster. Even and paper having two apps treat and expanding.",
           "text2": "Theory service that Twitter for were originally developed and that also play nicely. The all our brain takes in Slack, while sharing files via email. We Windows and typography the level it to be your progress in theory."
@@ -79,11 +79,11 @@
           "contacts": [
             {
               "icon": "fas fa-phone",
-              "text": "4498 3500"
+              "text": "(+45) 4498 3500"
             },
             {
               "icon": "fas fa-mobile-alt",
-              "text": "2921 3520"
+              "text": "(+45) 2921 3520"
             },
             {
               "icon": "fas fa-envelope",
@@ -103,13 +103,53 @@
         }
       ]
     },
-    {
-      "url": "/find",
-      "decks": []
+      {
+      "url": "/leje",
+      "decks": [
+         {
+          "type": "hero",
+          "title": "Boliger til leje",
+          "img": {
+            "src": "house-1.jpg",
+            "alt": "House"
+          }
+        },
+        {
+          "type": "paragraph",
+          "title": "Vil du leje et hus?",
+          "slogan": "-Vi kan hjælpe",
+          "text1": "And 's new app seemingly once I didn't expect it applies. Believe speaking we want to us 64 of the gamut. Lagged that looks, sounds, smells, feels, possibly even Windows and ultimately. To noise connoted a good does it to be traveling faster. Even and paper having two apps treat and expanding.",
+          "text2": "Theory service that Twitter for were originally developed and that also play nicely. The all our brain takes in Slack, while sharing files via email. We Windows and typography the level it to be your progress in theory."
+        },
+        {
+          "type": "contact",
+          "img": {
+            "src": "agent2.jpeg",
+            "alt": "Agent"
+          },
+          "title": "Kontakt",
+          "name": "Anders Kovsted",
+          "contacts": [
+            {
+              "icon": "fas fa-phone",
+              "text": "(+45) 8634 2111"
+            },
+            {
+              "icon": "fas fa-mobile-alt",
+              "text": "(+45) 7523 1999"
+            },
+            {
+              "icon": "fas fa-envelope",
+              "text": "anders@realestate.dk"
+            }
+          ]
+        }
+      ]
     },
     {
-      "url": "/leje",
-      "decks": []
+      "url": "/find",
+      "decks": [],
+      "_comments": "cards"
     },
     {
       "url": "/salgstjek",
