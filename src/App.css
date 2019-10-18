@@ -82,7 +82,7 @@ body {
   margin-bottom: 50px;
 }
 
-.title__bottom {
+.footer__title-bottom {
   text-align: center;
   font-size: 24px;
   width: 100vw;
@@ -122,7 +122,7 @@ input[type="text"] {
 }
 
 /* ImageLink Deck */
-.cards {
+.imageLinks {
   display: flex;
   margin: auto;
   justify-content: space-evenly;
@@ -130,14 +130,14 @@ input[type="text"] {
   position: relative;
 }
 
-.card__image {
+.imageLink__image {
   margin-top: 70px;
   width: 700px;
   height: 260px;
   object-fit: cover;
 }
 
-.card__title {
+.imageLink__title {
   margin-top: 120px;
   position: absolute;
   text-decoration: none;
@@ -152,17 +152,17 @@ input[type="text"] {
   z-index: 1;
 }
 
-.img-wrapper {
+.imageLink__img-wrapper {
   width: 700;
   height: 260;
   overflow: hidden;
 }
 
-.card__image:hover {
+.imageLink__image:hover {
   transform: scale(1.1);
 }
 
-.card__image {
+.imageLink__image {
   transition: all 0.3s ease;
 }
 
@@ -171,7 +171,7 @@ input[type="text"] {
   margin: auto;
 }
 
-.newsletter{
+.newsletter {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -213,7 +213,7 @@ input[type="text"] {
 }
 
 /* Paragraph */
-.salg__title {
+.paragraph__title {
   margin: auto;
   color: white;
   font-size: 42px;
@@ -221,7 +221,7 @@ input[type="text"] {
   margin-left: 200px;
 }
 
-.salg__text {
+.paragraph__text {
   margin: auto;
   color: white;
   font-size: 20px;

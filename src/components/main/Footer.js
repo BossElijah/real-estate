@@ -26,7 +26,7 @@ const Footer = () => {
           </Link>
         </form>
       </div>
-      <p className="title__bottom">
+      <p className="footer__title-bottom">
         Real Estate &copy; 2019 All Rights Reserved
       </p>
     </div>
