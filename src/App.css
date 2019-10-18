@@ -26,7 +26,6 @@ body {
   display: flex;
   background: #3d4669;
   margin-top: 70px;
-  margin-bottom: 50px;
 }
 
 /* CardList Deck */
@@ -50,6 +49,8 @@ body {
   margin: auto;
   width: 600px;
   height: auto;
+  margin-left: 220px;
+  margin-top: 70px;
 }
 
 .contact__image-wrapper {
@@ -59,6 +60,7 @@ body {
 .contact__info {
   margin: auto;
   width: 50vw;
+  margin-left: 290px;
 }
 
 .contact__title {
@@ -67,8 +69,27 @@ body {
 }
 
 .contact__name {
+  width: 380px;
   font-size: 35px;
   font-weight: 200;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px #3d4669 solid;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__icon {
+  margin: auto;
+  margin-right: 20px;
+}
+
+.icon__text {
+  margin: auto;
+  margin-left: 0;
 }
 
 /* Footer */

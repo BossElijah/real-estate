@@ -10,10 +10,10 @@ const Contact = ({ img: {src, alt}, title, name, subtitle, contacts }) => {
         <h2 className="contact__title">{title}</h2>
         <h3 className="contact__name">{name}</h3>
         {contacts.map((contact, index) => (
-          <Fragment key={index}>
-            <i className={contact.icon}></i>
-            <p>{contact.text}</p>
-          </Fragment>
+          <div className="icons">
+            <i className={contact.icon + ' contact__icon'}></i>
+            <p className="icon__text">{contact.text}</p>
+          </div>
         ))}
       </div>
     </div>
