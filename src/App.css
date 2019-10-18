@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   height: 764px;
+  width: 100vw; 
 }
 
 .hero__title {
@@ -158,6 +159,8 @@ input:focus:-moz-placeholder { color:transparent; }
 .container {
   display: flex;
   background: #3d4669;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .bolig__title {
@@ -176,4 +179,5 @@ input:focus:-moz-placeholder { color:transparent; }
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 300px;
-}
+  line-height: 1.6;
+} 
