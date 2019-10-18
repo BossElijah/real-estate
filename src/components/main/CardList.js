@@ -24,5 +24,3 @@ const cardList = ({ title, cards }) => {
 };
 
 export default cardList;
-
-
