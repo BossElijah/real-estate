@@ -13,7 +13,7 @@
         },
         {
           "type": "imageLink",
-          "cards": [
+          "imageLinks": [
             {
               "title": "Boliger til salg",
               "img": {
@@ -148,8 +148,66 @@
     },
     {
       "url": "/find",
-      "decks": [],
-      "_comments": "cards"
+      "decks": [
+        {
+          "type": "hero",
+          "title": "Ejendomsmægler",
+          "img": {
+            "src": "",
+            "alt": "Agents (agents.png)"
+          }
+        },
+        {
+          "type": "cardList",
+          "title": "Find din ejendomsmægler",
+          "cards": [
+            {
+              "img": {
+                "src": "",
+                "alt": "Person Personsen"
+              },
+              "name": "Person Personsen",
+              "age": "37 år",
+              "area": "Sjælland",
+              "phone": "+45 6155 5720",
+              "email": "person@realestate.dk"
+            },
+            {
+              "img": {
+                "src": "",
+                "alt": "Person Personsen"
+              },
+              "name": "Person Personsen",
+              "age": "37 år",
+              "area": "Sjælland",
+              "phone": "+45 6055 5562",
+              "email": "person@realestate.dk"
+            },
+            {
+              "img": {
+                "src": "",
+                "alt": "Person Personsen"
+              },
+              "name": "Person Personsen",
+              "age": "37 år",
+              "area": "Sjælland",
+              "phone": "+45 5255 5592",
+              "email": "person@realestate.dk"
+            },
+            {
+              "img": {
+                "src": "",
+                "alt": "Person Personsen"
+              },
+              "name": "Person Personsen",
+              "age": "37 år",
+              "area": "Sjælland",
+              "phone": "+45 5255 5592",
+              "email": "person@realestate.dk"
+            }
+          ]
+        }
+      ]
     },
     {
       "url": "/salgstjek",

@@ -5,6 +5,7 @@ import ImageLink from './ImageLink';
 import Newsletter from './Newsletter';
 import Contact from './Contact';
 import Paragraph from './Paragraph';
+import CardList from './CardList';
 
 const Deck = ({ type, ...props }) => {
   const deckMap = {
@@ -12,7 +13,8 @@ const Deck = ({ type, ...props }) => {
     imageLink: ImageLink,
     newsletter: Newsletter,
     contact: Contact,
-    paragraph: Paragraph
+    paragraph: Paragraph,
+    cardList: CardList
   };
 
   return React.createElement(

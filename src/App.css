@@ -29,6 +29,18 @@ body {
   margin-bottom: 50px;
 }
 
+/* CardList Deck */
+.cardList {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Contact Deck */
 .contact {
   display: flex;

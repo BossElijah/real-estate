@@ -1,18 +1,18 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
-const CardList = ({ cards }) => {
+const ImageLink = ({ imageLinks }) => {
   return (
     <div className="imageLinks">
-      {cards.map((card, index) => (
+      {imageLinks.map((imageLink, index) => (
         <Fragment key={index}>
-          <Link to={card.linkSrc} className="imageLink">
-            <h3 className="imageLink__title">{card.title}</h3>
+          <Link to={imageLink.linkSrc} className="imageLink">
+            <h3 className="imageLink__title">{imageLink.title}</h3>
             <div className="imageLink__img-wrapper">
               <img
                 className="imageLink__image"
-                src={process.env.PUBLIC_URL + '/img/' + card.img.src}
-                alt={card.img.alt}
+                src={process.env.PUBLIC_URL + '/img/' + imageLink.img.src}
+                alt={imageLink.img.alt}
               />
             </div>
           </Link>
@@ -22,4 +22,4 @@ const CardList = ({ cards }) => {
   );
 };
 
-export default CardList;
+export default ImageLink;
