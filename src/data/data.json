@@ -163,45 +163,45 @@
           "cards": [
             {
               "img": {
-                "src": "",
-                "alt": "Person Personsen"
+                "src": "agent3.png",
+                "alt": "Vincent Krough"
               },
-              "name": "Person Personsen",
-              "age": "37 år",
-              "area": "Sjælland",
+              "name": "Vincent Krough",
+              "age": "25 år",
+              "area": "Jylland",
               "phone": "+45 6155 5720",
-              "email": "person@realestate.dk"
+              "email": "jens@realestate.dk"
             },
             {
               "img": {
-                "src": "",
-                "alt": "Person Personsen"
+                "src": "agent4.jpeg",
+                "alt": "Carlo Bjerre"
               },
-              "name": "Person Personsen",
-              "age": "37 år",
+              "name": "Carlo Bjerre",
+              "age": "54 år",
               "area": "Sjælland",
               "phone": "+45 6055 5562",
-              "email": "person@realestate.dk"
+              "email": "lars@realestate.dk"
             },
             {
               "img": {
-                "src": "",
-                "alt": "Person Personsen"
+                "src": "agent5.jpeg",
+                "alt": "Louise Kofoed"
               },
-              "name": "Person Personsen",
+              "name": "Louise Kofoed",
               "age": "37 år",
-              "area": "Sjælland",
+              "area": "Fyn",
               "phone": "+45 5255 5592",
               "email": "person@realestate.dk"
             },
             {
               "img": {
-                "src": "",
-                "alt": "Person Personsen"
+                "src": "agent6.png",
+                "alt": "Darek Spencer"
               },
-              "name": "Person Personsen",
-              "age": "37 år",
-              "area": "Sjælland",
+              "name": "Darek Spencer",
+              "age": "39 år",
+              "area": "Lolland",
               "phone": "+45 5255 5592",
               "email": "person@realestate.dk"
             }

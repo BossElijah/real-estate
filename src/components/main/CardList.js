@@ -8,7 +8,10 @@ const cardList = ({ title, cards }) => {
       <div className="cardList">
         {cards.map((card, index) => (
           <div className="card" key={index}>
-            <img src={card.img.src} alt={card.img.alt} />
+            <img style={{ height: '150px' }}
+              src={process.env.PUBLIC_URL + '/img/' + card.img.src}
+              alt={card.img.alt}
+            />
             <h3>{card.name}</h3>
             <p>{card.age}</p>
             <p>{card.area}</p>
