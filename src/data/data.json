@@ -78,15 +78,15 @@
           "name": "Thomas Andreasen",
           "contacts": [
             {
-              "icon": "fas fa-phone",
+              "icon": "fas fa-phone fa-lg",
               "text": "(+45) 4498 3500"
             },
             {
-              "icon": "fas fa-mobile-alt",
+              "icon": "fas fa-mobile-alt fa-lg",
               "text": "(+45) 2921 3520"
             },
             {
-              "icon": "fas fa-envelope",
+              "icon": "fas fa-envelope fa-lg",
               "text": "thomas@realestate.dk"
             }
           ]
@@ -131,15 +131,15 @@
           "name": "Anders Jeppesen",
           "contacts": [
             {
-              "icon": "fas fa-phone",
+              "icon": "fas fa-phone fa-lg",
               "text": "(+45) 8634 2111"
             },
             {
-              "icon": "fas fa-mobile-alt",
+              "icon": "fas fa-mobile-alt fa-lg",
               "text": "(+45) 7523 1999"
             },
             {
-              "icon": "fas fa-envelope",
+              "icon": "fas fa-envelope fa-lg",
               "text": "anders@realestate.dk"
             }
           ]
