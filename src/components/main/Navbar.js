@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Fragment>
       <Link to="/">
-        <img src={process.env.PUBLIC_URL + '/img/logo.svg'} alt="Logo" />
+        <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="Logo" />
       </Link>
     </Fragment>
   );
