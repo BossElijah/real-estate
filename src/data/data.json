@@ -167,10 +167,10 @@
                 "alt": "Vincent Krough"
               },
               "name": "Vincent Krough",
-              "age": "25 år",
+              "age": "33 år",
               "area": "Jylland",
               "phone": "+45 6155 5720",
-              "email": "jens@realestate.dk"
+              "email": "vincent@realestate.dk"
             },
             {
               "img": {
@@ -181,7 +181,7 @@
               "age": "54 år",
               "area": "Sjælland",
               "phone": "+45 6055 5562",
-              "email": "lars@realestate.dk"
+              "email": "carlo@realestate.dk"
             },
             {
               "img": {
@@ -189,10 +189,10 @@
                 "alt": "Louise Kofoed"
               },
               "name": "Louise Kofoed",
-              "age": "37 år",
+              "age": "30 år",
               "area": "Fyn",
               "phone": "+45 5255 5592",
-              "email": "person@realestate.dk"
+              "email": "loise@realestate.dk"
             },
             {
               "img": {
@@ -203,7 +203,51 @@
               "age": "39 år",
               "area": "Lolland",
               "phone": "+45 5255 5592",
-              "email": "person@realestate.dk"
+              "email": "darek@realestate.dk"
+            },
+            {
+              "img": {
+                "src": "agent.jpeg",
+                "alt": "Thomas Andreasen"
+              },
+              "name": "Thomas Andreasen",
+              "age": "25 år",
+              "area": "København",
+              "phone": "+45 4498 3500",
+              "email": "thomas@realestate.dk"
+            },
+            {
+              "img": {
+                "src": "agent7.jpeg",
+                "alt": "Abed Ali"
+              },
+              "name": "Abed Ali",
+              "age": "38 år",
+              "area": "Sønderjylland",
+              "phone": "+45 2555 6593",
+              "email": "abed@realestate.dk"
+            },
+             {
+              "img": {
+                "src": "agent2.jpeg",
+                "alt": "Anders Jeppesen"
+              },
+              "name": "Anders Jeppesen",
+              "age": "23 år",
+              "area": "Nordsjælland",
+              "phone": "+45 8634 2111",
+              "email": "anders@realestate.dk"
+            },
+            {
+              "img": {
+                "src": "agent8.jpeg",
+                "alt": "Lone Nielsen"
+              },
+              "name": "Lone Nielsen",
+              "age": "36 år",
+              "area": "Nordjylland",
+              "phone": "+45 6055 5147",
+              "email": "lone@realestate.dk"
             }
           ]
         }
