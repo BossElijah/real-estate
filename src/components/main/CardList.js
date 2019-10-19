@@ -3,9 +3,9 @@ import React from 'react';
 
 const cardList = ({ title, cards }) => {
   return (
-    <>
+    <div className="card-container">
       <h2>{title}</h2>
-      <div className="cardList">
+      <div className="card-list">
         {cards.map((card, index) => (
           <div className="card" key={index}>
             <img style={{ height: '150px' }}
@@ -22,7 +22,7 @@ const cardList = ({ title, cards }) => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
