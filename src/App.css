@@ -43,6 +43,16 @@ body {
 }
 
 /* CardList Deck */
+.card-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card-list {
   display: flex;
   flex-direction: row;

@@ -4,7 +4,7 @@ import React from 'react';
 const cardList = ({ title, cards }) => {
   return (
     <div className="card-container">
-      <h2>{title}</h2>
+      <h2 className="card-title">{title}</h2>
       <div className="card-list">
         {cards.map((card, index) => (
           <div className="card" key={index}>
