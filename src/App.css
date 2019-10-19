@@ -43,11 +43,6 @@ body {
 }
 
 /* CardList Deck */
-.card-title {
-  display: flex;
-  flex-direction: column;
-}
-
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -56,6 +51,9 @@ body {
 .card-list {
   display: flex;
   flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
 }
 
 .card {
