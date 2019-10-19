@@ -43,7 +43,7 @@ body {
 }
 
 /* CardList Deck */
-.cardList {
+.card-list {
   display: flex;
   flex-direction: row;
 }
