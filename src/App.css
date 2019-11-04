@@ -22,7 +22,7 @@ body {
 .btn {
   background: white;
   text-decoration: none;
-  font-family: IBM Plex Sans;
+  font-family: IBM Plex Sans; 
   color: #3d4669;
   padding: 15px 20px;
   font-size: 24px;
@@ -49,8 +49,6 @@ body {
 }
 
 .card-list {
-  display: flex;
-  flex-direction: row;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
@@ -61,6 +59,76 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 70px;
+}
+
+.agents-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.agents {
+  margin: auto;
+  display: flex;
+  max-width: 90vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.agent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.agent-img {
+  object-fit: cover;
+  height: 400px;
+  width: 300px;
+}
+
+.agents-info {
+  background: #3d4669;
+  color: white;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 19px;
+}
+
+.place-container {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.place-container:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.phone-container {
+  display: flex;
+}
+
+.phone-container:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon-text {
+  padding-left: 25px;
+}
+
+.email-container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.email-container:hover {
+  font-size: 20px;
+  cursor: pointer;
 }
 
 /* Contact Deck */
@@ -274,22 +342,38 @@ input[type="text"] {
   background: #f4f4f4;
 }
 
-/* Paragraph */
-.paragraph__title {
-  margin: auto;
-  color: white;
-  font-size: 42px;
-  line-height: 50px;
-  margin-left: 200px;
+/* Inner */
+.two-column-layout {
+  display: flex;
+  max-width: 100%;
+  background: #3d4669;
+  padding: 48px;
 }
 
-.paragraph__text {
-  margin: auto;
-  color: white;
+.inner {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1240px;
+}
+
+.inner__left {
+  width: 50%;
+}
+
+.inner-left__title {
+  font-size: 48px;
+  color: #f4f4f4;
+  margin-right: 48px;
+}
+
+.inner-right {
+  width: 50%;
+}
+
+.inner-right__text {
   font-size: 20px;
-  max-width: 500px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 300px;
-  line-height: 1.6;
-} 
+  color: #f4f4f4;
+  max-width: 800px;
+  margin-left: 48px;
+  line-height: 2rem;
+}

@@ -2,15 +2,16 @@ import React from 'react';
 
 const Paragraph = ({ text1, text2, slogan, title }) => {
   return (
-    <div className="container" >
-      <div className="paragraph__title">
-        <h2>{title}</h2>
-        <h2>{slogan}</h2>
-      </div>
-      <div className="paragraph__text">
-        <p>{text1}</p>
-        <br/>
-        <p>{text2}</p>
+    <div className="two-column-layout">
+      <div className="inner">
+        <div className="inner-left">
+          <h2 className="inner-left__title">{title}</h2>
+          <h2 className="inner-left__title">{slogan}</h2>
+        </div>
+        <div className="inner-right">
+          <p className="inner-right__text">{text1}</p>
+          <p className="inner-right__text">{text2}</p>
+        </div>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import Newsletter from './Newsletter';
 import Contact from './Contact';
 import Paragraph from './Paragraph';
 import CardList from './CardList';
+import Agents from './Agents';
 
 const Deck = ({ type, ...props }) => {
   const deckMap = {
@@ -14,7 +15,8 @@ const Deck = ({ type, ...props }) => {
     newsletter: Newsletter,
     contact: Contact,
     paragraph: Paragraph,
-    cardList: CardList
+    cardList: CardList,
+    agents: Agents
   };
 
   return React.createElement(
