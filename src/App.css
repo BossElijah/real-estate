@@ -92,7 +92,7 @@ body {
 
 .agents-info {
   background: #3d4669;
-  color: white;
+  color: #f4f4f4;
   padding-left: 40px;
   padding-bottom: 20px;
   font-size: 19px;
@@ -129,6 +129,27 @@ body {
 .email-container:hover {
   font-size: 20px;
   cursor: pointer;
+}
+
+.agents__btn_container {
+  display: flex;
+  background: #3d4669;
+}
+
+.agents__btn {
+  margin: auto;
+  text-decoration: none;
+  color: #3d4669;
+  background: #fff;
+  padding: 3px 7px;
+  border-radius: 0.1rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.agents__btn:hover {
+  background: #f4f4f4;
+  font-size: 20px;
 }
 
 /* Contact Deck */
