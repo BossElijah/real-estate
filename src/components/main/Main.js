@@ -5,7 +5,6 @@ import ImageLink from './ImageLink';
 import Newsletter from './Newsletter';
 import Contact from './Contact';
 import Paragraph from './Paragraph';
-import CardList from './CardList';
 import Agents from './Agents';
 
 const Deck = ({ type, ...props }) => {
@@ -15,7 +14,6 @@ const Deck = ({ type, ...props }) => {
     newsletter: Newsletter,
     contact: Contact,
     paragraph: Paragraph,
-    cardList: CardList,
     agents: Agents
   };
 
