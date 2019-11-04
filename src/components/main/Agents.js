@@ -26,6 +26,7 @@ const Agents = ({ title, agents }) => {
                 <i className="fas fa-envelope"></i>
                 <span className="icon-text">{agent.email}</span>
               </div>
+              <a href="{agent.cta}" className="agents__btn">Læs mere</a>
             </div>
           </div>
         ))}

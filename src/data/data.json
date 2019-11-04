@@ -176,7 +176,8 @@
               "name": "Vincent Krough",
               "area": "Midtjylland",
               "phone": "+45 6155 5720",
-              "email": "vincent@realestate.dk"
+              "email": "vincent@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -186,7 +187,8 @@
               "name": "Carlo Bjerre",
               "area": "Sjælland",
               "phone": "+45 6055 5562",
-              "email": "carlo@realestate.dk"
+              "email": "carlo@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -196,7 +198,8 @@
               "name": "Louise Kofoed",
               "area": "Fyn",
               "phone": "+45 5255 5592",
-              "email": "loise@realestate.dk"
+              "email": "loise@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -206,7 +209,8 @@
               "name": "Derek Spencer",
               "area": "Lolland",
               "phone": "+45 5255 5592",
-              "email": "darek@realestate.dk"
+              "email": "darek@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -216,7 +220,8 @@
               "name": "Thomas Andreasen",
               "area": "København",
               "phone": "+45 4498 3500",
-              "email": "thomas@realestate.dk"
+              "email": "thomas@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -226,7 +231,8 @@
               "name": "Abed Ali",
               "area": "Sønderjylland",
               "phone": "+45 2555 6593",
-              "email": "abed@realestate.dk"
+              "email": "abed@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -236,7 +242,8 @@
               "name": "Anders Jeppesen",
               "area": "Nordsjælland",
               "phone": "+45 8634 2111",
-              "email": "anders@realestate.dk"
+              "email": "anders@realestate.dk",
+              "cta": "#"
             },
             {
               "img": {
@@ -246,7 +253,8 @@
               "name": "Lone Nielsen",
               "area": "Nordjylland",
               "phone": "+45 6055 5147",
-              "email": "lone@realestate.dk"
+              "email": "lone@realestate.dk",
+              "cta": "#"
             }
           ]
         }
