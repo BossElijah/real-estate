@@ -47,6 +47,15 @@
               "linkSrc": "/salgstjek"
             }
           ]
+        },
+        {
+          "type": "contactForm",
+          "title": "Kontakt os",
+          "textFields": [
+            "Navn",
+            "Email",
+            "Besked"
+          ]
         }
       ]
     },
@@ -269,7 +278,32 @@
     },
     {
       "url": "/salgstjek",
-      "decks": []
+      "decks": [
+        {
+          "type": "hero",
+          "title": "Salgstjek",
+          "img": {
+            "src": "salgstjek.jpg",
+            "alt": "Find Image"
+          }
+        }, 
+        {
+          "type": "form",
+          "title": "Bestil et gratis salgstjek",
+          "textFields": [
+            "Adresse",
+            "Postnummer",
+            "By",
+            "Navn",
+            "Email",
+            "Telefon"
+          ],
+          "cta": {
+            "url": "/",
+            "text": "Bestil"
+          }
+        }
+      ]
     }
   ]
 }

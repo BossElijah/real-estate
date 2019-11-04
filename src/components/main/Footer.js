@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const emailInputRef = useRef(null);
@@ -13,17 +12,16 @@ const Footer = () => {
     <div className="footer">
       <div className="newsletter">
         <h2 className="footer__title">Tilmeld dig vores nyhedsbrev</h2>
-        <form id="form">
+        <form action="/nyhedsbrev"  target="_blank" id="form">
           <input
             type="text"
             name="email"
             id="email"
             placeholder="Din email-adresse her..."
             ref={emailInputRef}
+            required
           />
-          <Link to="/nyhedsbrev" target="_blank" className="btn footer__btn" onClick={onClick}>
-            <b>Tilmeld</b>
-          </Link>
+          <input type="submit" value="Tilmeld" className="btn footer__btn" />
         </form>
       </div>
       <p className="footer__title-bottom">
