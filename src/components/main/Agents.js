@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Agents = ({ title, agents }) => {
+const Agents = ({ agents }) => {
   return (
     <div className="agents-container">
       <div className="agents">
@@ -14,18 +14,18 @@ const Agents = ({ title, agents }) => {
             </div>
             <div className="agents-info">
               <h3>{agent.name}</h3>
-              <div className="place-container">
+              <a target="_blank" rel="noopener noreferrer" href={agent.arealink} className="place-container">
                 <i class="fas fa-map-marker-alt"></i>
                 <span className="icon-text">{agent.area}</span>
-              </div>  
-              <div className="phone-container">
+              </a>  
+              <a className="phone-container">
                 <i className="fas fa-phone"></i>
                 <span className="icon-text">{agent.phone}</span>
-              </div>
-              <div className="email-container">
+              </a>
+              <a href={`mailto:${agent.email}`} className="email-container">
                 <i className="fas fa-envelope"></i>
                 <span className="icon-text">{agent.email}</span>
-              </div>
+              </a>
               <a href="{agent.cta}" className="agents__btn">Læs mere</a>
             </div>
           </div>
