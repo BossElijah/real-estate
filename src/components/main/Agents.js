@@ -18,7 +18,7 @@ const Agents = ({ agents }) => {
                 <i class="fas fa-map-marker-alt"></i>
                 <span className="icon-text">{agent.area}</span>
               </a>  
-              <a className="phone-container">
+              <a href={`tel:${agent.phone}`} className="phone-container">
                 <i className="fas fa-phone"></i>
                 <span className="icon-text">{agent.phone}</span>
               </a>
