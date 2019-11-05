@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const Form = ({ title, textFields, cta: {url, text} }) => {
+const Form = ({ title, textFields }) => {
 	return (
 		<form action="/" className="contactForm">
 			<div className="contactForm__title">

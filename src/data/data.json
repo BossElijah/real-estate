@@ -308,7 +308,7 @@
           }
         },
         {
-          "type": "contactForm",
+          "type": "form",
           "title": "Kontakt os",
           "textFields": [
             "Navn",
