@@ -4,11 +4,23 @@ body {
   font-family: IBM Plex sans;
 }
 
-.logo {
+.header {
   position: absolute;
   z-index: 1;
+  display: flex;
+  width: 100%;
+}
+
+.logo-container {
+  position: static;
+  width: 300px;
+  display: flex;
+}
+
+.logo {
+  z-index: 1;
   background: #f4f4f4;
-  margin-left: 55px;
+  margin: auto;
   height: 80px;
   padding: 30px 5px;
 }
@@ -16,6 +28,18 @@ body {
 .logo:hover {
   cursor: pointer;
   background: #fff;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+}
+
+.navbar__inner {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 
 /* Utility Classes */
@@ -112,6 +136,8 @@ body {
 
 .phone-container {
   display: flex;
+  text-decoration: none;
+  color: #f4f4f4;
 }
 
 .phone-container:hover {
