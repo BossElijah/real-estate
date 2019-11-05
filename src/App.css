@@ -250,6 +250,12 @@ input[type="text"] {
   padding-left: 10px;
 }
 
+input[type="email"] {
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
 /* Form Deck */
 #textField {
   margin-left: 20px;

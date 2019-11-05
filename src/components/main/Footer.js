@@ -12,9 +12,9 @@ const Footer = () => {
     <div className="footer">
       <div className="newsletter">
         <h2 className="footer__title">Tilmeld dig vores nyhedsbrev</h2>
-        <form action="/nyhedsbrev"  target="_blank" id="form">
+        <form action="/nyhedsbrev" onSubmit={onClick} target="_blank" id="form">
           <input
-            type="text"
+            type="email"
             name="email"
             id="email"
             placeholder="Din email-adresse her..."
