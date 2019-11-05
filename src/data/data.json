@@ -47,15 +47,6 @@
               "linkSrc": "/salgstjek"
             }
           ]
-        },
-        {
-          "type": "contactForm",
-          "title": "Kontakt os",
-          "textFields": [
-            "Navn",
-            "Email",
-            "Besked"
-          ]
         }
       ]
     },
@@ -302,6 +293,28 @@
             "url": "/",
             "text": "Bestil"
           }
+        }
+      ]
+    },
+    {
+      "url": "/kontakt",
+      "decks": [
+        {
+          "type": "hero",
+          "title": "Kontakt os",
+          "img": {
+            "src": "contact.jpg",
+            "alt": "Kontakt Os"
+          }
+        },
+        {
+          "type": "contactForm",
+          "title": "Kontakt os",
+          "textFields": [
+            "Navn",
+            "Email",
+            "Besked"
+          ]
         }
       ]
     }
