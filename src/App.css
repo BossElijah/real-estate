@@ -38,8 +38,16 @@ body {
 .navbar__inner {
   margin: auto;
   display: flex;
+  justify-content: flex-end;
   justify-content: space-between;
-  width: 80%;
+  width: 60%;
+}
+
+.navbar__btn {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 27px;
+  text-shadow: 1px 1px 4px #333;
 }
 
 /* Utility Classes */
@@ -127,6 +135,7 @@ body {
   padding-bottom: 20px;
   text-decoration: none;
   color: #f4f4f4;
+  transition: font-size 0.1s ease-in;
 }
 
 .place-container:hover {
@@ -138,6 +147,7 @@ body {
   display: flex;
   text-decoration: none;
   color: #f4f4f4;
+  transition: font-size 0.1s ease-in;
 }
 
 .phone-container:hover {
@@ -154,6 +164,7 @@ body {
   padding-top: 20px;
   text-decoration: none;
   color: #f4f4f4;
+  transition: font-size 0.1s ease-in;
 }
 
 .email-container:hover {
@@ -176,6 +187,8 @@ body {
   border-radius: 0.1rem;
   font-weight: bold;
   margin-bottom: 32px;
+  font-size: 17px;
+  transition: font-size 0.1s ease-in;
 }
 
 .agents__btn:hover {
